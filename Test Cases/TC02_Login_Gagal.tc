@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Login_Gagal</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02cbc9cf-d848-4534-9b3a-8d6ad04262e6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39f2a62a-9b71-43f4-b3f5-a5ac808b102a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53911bf6-5e9e-4e28-8cfa-9679e0cec9b2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'UserSalah'</defaultValue>
+      <description></description>
+      <id>39f2a62a-9b71-43f4-b3f5-a5ac808b102a</id>
+      <masked>false</masked>
+      <name>invalidUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'PasswordSalah'</defaultValue>
+      <description></description>
+      <id>53911bf6-5e9e-4e28-8cfa-9679e0cec9b2</id>
+      <masked>false</masked>
+      <name>invalidPass</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Login_Sukse</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df821d62-39c4-4212-b726-908643ecac6b</testCaseGuid>
+</TestCaseEntity>

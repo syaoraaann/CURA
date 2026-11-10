@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DDT_Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42324e16-1ed2-4248-8e6b-90d781dd39f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b03308f6-18fc-4158-8aa4-268ee3ad1173</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e21b9c26-ae81-4cb5-a101-0faf6ead9bcc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b03308f6-18fc-4158-8aa4-268ee3ad1173</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e21b9c26-ae81-4cb5-a101-0faf6ead9bcc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

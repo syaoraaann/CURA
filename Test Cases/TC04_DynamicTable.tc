@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_DynamicTable</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25565d89-2616-4183-b512-bb2cdac010f0</testCaseGuid>
+</TestCaseEntity>
