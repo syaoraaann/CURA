@@ -8,6 +8,8 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.model.FailureHandling
 
 public class TableKeywords {
 
@@ -49,5 +51,48 @@ public class TableKeywords {
 				[('lastName') : lastName, ('action') : action])
 		WebUI.waitForElementClickable(link, 10)
 		WebUI.click(link)
+	}
+	/**
+	 * Mengambil semua isi satu kolom sebagai list teks.
+	 */
+	@Keyword
+	def getColumnValues(int col) {
+		def cells = DriverFactory.getWebDriver().findElements(By.xpath("//table[@id='table1']/tbody/tr/td[${col}]"))
+		return cells.collect { it.getText().trim() }
+	}
+
+	/**
+	 * Klik header kolom untuk mengurutkan tabel.
+	 */
+	@Keyword
+	def sortByColumn(int col) {
+		TestObject header = new TestObject('header_' + col)
+		header.addProperty('xpath', ConditionType.EQUALS, "//table[@id='table1']/thead/tr/th[${col}]")
+		WebUI.waitForElementClickable(header, 10)
+		WebUI.click(header)
+	}
+
+	/**
+	 * Memverifikasi isi kolom sudah terurut.
+	 * ascending = true (naik) / false (turun); numeric = true kalau isinya angka/uang.
+	 */
+	@Keyword
+	def verifyColumnSorted(int col, boolean ascending, boolean numeric) {
+		List actual = getColumnValues(col)
+
+		List expectedSorted
+		if (numeric) {
+			expectedSorted = actual.sort(false) { it.replaceAll('[^0-9.]', '').toBigDecimal() }
+		} else {
+			expectedSorted = actual.sort(false)
+		}
+		if (!ascending) {
+			expectedSorted = expectedSorted.reverse()
+		}
+
+		String arah = ascending ? 'naik' : 'turun'
+		println("Kolom ${col} (${arah}) aktual   : " + actual.join(' | '))
+		println("Kolom ${col} (${arah}) ekspektasi: " + expectedSorted.join(' | '))
+		WebUI.verifyEqual(actual.join(' | '), expectedSorted.join(' | '))
 	}
 }

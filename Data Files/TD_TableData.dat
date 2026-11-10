@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TD_TableData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>787b84c2-29db-4776-8895-b1c4788070c9</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Smith 3 jsmith%40gmail.com</data>
+   <data>Bach 3 fbach%40yahoo.com</data>
+   <data>Doe 3 jdoe%40hotmail.com</data>
+   <data>Conway 3 tconway%40earthlink.net</data>
+   <data>Smith 4 %2450.00</data>
+   <data>Bach 4 %2451.00</data>
+   <data>Doe 4 %24100.00</data>
+   <data>Conway 4 %2450.00</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>lastName</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>col</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>expected</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
