@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_Table_Pagination</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Kevin Pratama</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>d31a405b-9f38-4c34-bd92-29c927728eb0</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6d7e580-1b3a-4aaf-827b-266f4d0acbe6</testCaseGuid>
+</TestCaseEntity>
